@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.main {
+  position: relative;
+  margin: auto;
+  background-color: aliceblue;
+}
+.parent {
+  background-color:#9E1BF3;
+  color: white;
+  border: 1px solid black;
+  border-radius: 10px;
+ max-width: 50px;
+ height: 50px;
+ display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+right: 0;
+left: 50%;
+top: 0;
+bottom: 0;
+margin-top: 20%;
+}
+.parent2 {
+  display:flexbox;
+ /*  text-align: center; */
+ /*  justify-content: center; */
+/* align-items: center; */
+position: absolute;
+margin-top:24%;
+margin-left: 48.5%;
+}
+</style>
+</head>
+<body>
+
+<div class="main">
+  <div class="parent">
+    <h1>B</h1>
+  </div> 
+  <div class="parent2">
+   <h3>Please sign in</h3>
+   <form action="Brown Bear.jpg" method="post">
+     <input style="width: 200px;" type="email" id="email" name="mail" placeholder="Your Email"><br>
+     <input style="width: 200px;" type="password" id="email" name="mail" placeholder="Your Password"><br><br>
+     <input style="margin-left: 20px; " type="checkbox" id="remember" name="rememeber"><label>Remember me</label><br>
+     <input type="submit" value="Sign in" style="background-color: blue; color: white; width: 100%; max-width: 200px; margin-top: 25px;">
+   </form>
+  </div>
+</div>
+  
+
+
+</body>
+</html>
