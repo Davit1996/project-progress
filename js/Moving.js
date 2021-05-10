@@ -3,16 +3,16 @@ document.addEventListener("keydown",(event)=>{
       let x=event.key;
             switch(x){
                 case "ArrowDown":
-                    B.style.top+="50px";
+                    B.style.top+=parseInt(B.style.top+10)+'px';
                     break;
                 case "ArrowUp":
-                    B.style.top+="50px";
+                    B.style.top+=parseInt(B.style.top-10)+'px';
                     break;  
                 case "ArrowRight":
-                    B.style.left+="50px";
+                    B.style.left+=parseInt(B.style.left+10)+'px';
                     break;
                 case "ArrowLeft":
-                    B.style.right+="50px";
-                    break;        
+                    B.style.right+=parseInt(B.style.left-10)+'px';
+                  break;  
             }
 });
